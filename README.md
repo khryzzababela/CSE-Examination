@@ -1,11 +1,9 @@
-# CSE-Examination
+## GPS Tracker Program
 
-Instructions:
+This Python program simulates a simple GPS tracker.
 
-Fork this repo and clone the fork onto your local computer.
-
-Make sure to create a local branch name examination/midterm-python-exam and accomplish the task given in that branch.
-
-Modify this README.md file to explain your code.
-
-Push the activity back to your forked remote repo.
+- Starts at position (0, 0).
+- Accepts movement commands: `N`, `S`, `E`, `W` (case-insensitive).
+- User can type `STOP` to end.
+- After each move, it shows the new position.
+- At the end, it shows the final position and whether the user returned to the origin.
